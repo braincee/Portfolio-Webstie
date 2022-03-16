@@ -29,7 +29,7 @@ span {
   margin: 0 auto 1em;
   height: 200px;
   position: relative;
-  border-right: .2em;
+  border-right: 0.2em;
   padding-top: 50px;
 }
 
@@ -45,7 +45,7 @@ span {
 }
 
 .circle-2 {
-  background: #Edecff;
+  background: #edecff;
   position: absolute;
   border-radius: 50%;
   width: 150px;
@@ -55,7 +55,7 @@ span {
   filter: blur(15px);
 }
 
-ul>li {
+ul > li {
   list-style: none;
 }
 
@@ -80,4 +80,3 @@ img {
   gap: 30px;
   margin-top: 50px;
 }
-
