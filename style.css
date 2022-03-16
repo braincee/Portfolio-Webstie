@@ -1,24 +1,28 @@
 body {
-  background-color: rgb(74, 74, 110);
-  color: aliceblue;
+ background-color: rgb(74, 74, 110);
+ color: aliceblue;
 }
+
 .container-1 {
   display: flex;
   padding: 10px 12px;
   gap: 1000px;
   list-style: none;
 }
+
 .rest {
   display: flex;
   justify-items: end;
   gap: 20px;
   padding: 10px 12px;
 }
+
 .container-2 {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 span {
   display: block;
   max-width: 320px;
@@ -28,6 +32,7 @@ span {
   border-right: .2em;
   padding-top: 50px;
 }
+
 .circle-1 {
   background: #edecff;
   border-radius: 50%;
@@ -38,6 +43,7 @@ span {
   top: 180px;
   filter: blur(15px);
 }
+
 .circle-2 {
   background: #Edecff;
   position: absolute;
@@ -48,24 +54,30 @@ span {
   top: 450px;
   filter: blur(15px);
 }
+
 ul>li {
  list-style: none;
 }
+
 .container-3 {
   display: flex;
   justify-content: center;
   line-height: 25px;
 }
+
 hr {
     border: 1px solid #646369; 
     margin-top: 0%;
 }
+
 img {
     max-width: 30px;
 }
+
 .images {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
 }
+
