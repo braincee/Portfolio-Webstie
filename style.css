@@ -1,12 +1,16 @@
 body {
  background-color: rgb(74, 74, 110);
+
  color: aliceblue;
 }
 
 .container-1 {
   display: flex;
+
   padding: 10px 12px;
+
   gap: 1000px;
+  
   list-style: none;
 }
 
