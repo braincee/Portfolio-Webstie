@@ -1,12 +1,12 @@
 body {
- background-color: rgb(74, 74, 110);
- color: aliceblue;
+  background-color: rgb(74, 74, 110);
+  color: aliceblue;
 }
 .container-1 {
-    display: flex;
-    padding: 10px 12px;
-    gap: 1000px;
-    list-style: none;
+  display: flex;
+  padding: 10px 12px;
+  gap: 1000px;
+  list-style: none;
 }
 .rest {
   display: flex;
@@ -20,41 +20,40 @@ body {
   text-align: center;
 }
 span {
-    display: block;
-    max-width: 320px;
-    margin: 0 auto 1em;
-    height: 200px;
-    position: relative;
-    border-right: .2em;
-    padding-top: 50px;
+  display: block;
+  max-width: 320px;
+  margin: 0 auto 1em;
+  height: 200px;
+  position: relative;
+  border-right: .2em;
+  padding-top: 50px;
 }
 .circle-1 {
-    background: #edecff;
-    border-radius: 50%;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 100px;
-    top: 180px;
-    filter: blur(15px);
+  background: #edecff;
+  border-radius: 50%;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  top: 180px;
+  filter: blur(15px);
 }
 .circle-2 {
-    background: #Edecff;
-    position: absolute;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    left: 1143px;
-    top: 450px;
-    filter: blur(15px);   
+  background: #Edecff;
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  left: 1143px;
+  top: 450px;
+  filter: blur(15px);
 }
-ul > li {
+ul>li {
  list-style: none;
 }
 .container-3 {
   display: flex;
   justify-content: center;
-  margin-top: 0px;
   line-height: 25px;
 }
 hr {
