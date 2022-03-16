@@ -45,7 +45,7 @@ span {
 }
 
 .circle-2 {
-  background: #edecff;
+  background: #e9e8f1;
   position: absolute;
   border-radius: 50%;
   width: 150px;
@@ -66,8 +66,7 @@ ul > li {
 }
 
 hr {
-  border: 1px solid #646369; 
-  margin-top: 0%;
+  border: 1px solid #646369;
 }
 
 img {
