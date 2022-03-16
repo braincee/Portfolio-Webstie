@@ -1,16 +1,12 @@
 body {
- background-color: rgb(74, 74, 110);
-
- color: aliceblue;
+  background-color: rgb(74, 74, 110);
+  color: aliceblue;
 }
 
 .container-1 {
   display: flex;
-
   padding: 10px 12px;
-
   gap: 1000px;
-  
   list-style: none;
 }
 
@@ -60,7 +56,7 @@ span {
 }
 
 ul>li {
- list-style: none;
+  list-style: none;
 }
 
 .container-3 {
@@ -70,18 +66,18 @@ ul>li {
 }
 
 hr {
-    border: 1px solid #646369; 
-    margin-top: 0%;
+  border: 1px solid #646369; 
+  margin-top: 0%;
 }
 
 img {
-    max-width: 30px;
+  max-width: 30px;
 }
 
 .images {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
 }
 
