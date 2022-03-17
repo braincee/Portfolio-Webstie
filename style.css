@@ -174,8 +174,8 @@ li {
   display: none;
 }
 
-
 @media screen and (min-width: 1024px) {
+
  .header-container {
     position: sticky;
     top: 0;
@@ -213,7 +213,7 @@ li {
   .nav-item {
     display: block;
   }
-  
+
   .hamburger {
     display: none;
   }
