@@ -51,8 +51,6 @@ li {
   max-width: 30px;
 }
 
-
-
 .list-1 {
   display: flex;
   list-style: none;
@@ -115,7 +113,7 @@ li {
   border-bottom: 1px solid #646369;
 }
 
-.skills-1{
+.skills-1 {
   flex: 1 0 120px;
   display: flex;
   align-self: stretch;
@@ -178,8 +176,7 @@ li {
 
 
 @media screen and (min-width: 1024px) {
-
-  .header-container {
+ .header-container {
     position: sticky;
     top: 0;
     background-color: #322fa5;
@@ -216,6 +213,7 @@ li {
   .nav-item {
     display: block;
   }
+  
   .hamburger {
     display: none;
   }
