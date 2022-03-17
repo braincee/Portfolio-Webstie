@@ -175,8 +175,7 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
-
- .header-container {
+  .header-container {
     position: sticky;
     top: 0;
     background-color: #322fa5;
