@@ -1,81 +1,222 @@
-body {
-  background-color: rgb(74, 74, 110);
-  color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.container-1 {
-  display: flex;
-  padding: 10px 12px;
-  gap: 1000px;
+:root {
+  --wrapper-width: 90%;
+  --primary-color: #191765;
+  --secondary-color: #edecff;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--primary-color);
+  color: #c8c8d4;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+a {
+  color: #646369;
+  text-decoration: none;
+}
+
+li {
   list-style: none;
 }
 
-.rest {
+.navbar {
+  min-height: 70px;
   display: flex;
-  justify-items: end;
-  gap: 20px;
-  padding: 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.hamburger {
+  max-width: 30px;
+}
+
+
+
+.list-1 {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.myself-1 {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
 }
 
 .container-2 {
   display: flex;
   flex-direction: column;
+  height: max-content;
+  padding: 20px 30px;
+}
+
+.container-2 > * {
+  max-width: 500px;
+}
+
+.myself-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myself-2 .name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.37px;
+  color: #7b77b3;
   text-align: center;
 }
 
-span {
-  display: block;
-  max-width: 320px;
-  margin: 0 auto 1em;
-  height: 200px;
-  position: relative;
-  border-right: 0.2em;
-  padding-top: 50px;
+.myself-2 .tech {
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--secondary-color);
+  text-align: center;
 }
 
-.circle-1 {
-  background: #edecff;
-  border-radius: 50%;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 100px;
-  top: 180px;
-  filter: blur(15px);
+.intro-1 {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #646369;
 }
 
-.circle-2 {
-  background: #e9e8f1;
-  position: absolute;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  left: 1143px;
-  top: 450px;
-  filter: blur(15px);
+.myself-3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  border-bottom: 1px solid #646369;
 }
 
-ul > li {
+.skills-1{
+  flex: 1 0 120px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.skills-2 {
+  margin: 0 0 10px;
+  display: inline-block;
+  color: #9490ff;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.skills-3 {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.container-3 {
+.skills-3 ul li {
+  font-size: 15px;
+  font-style: normal;
+  line-height: 24px;
+  color: #f5f5ff;
+}
+
+.icons-1 {
   display: flex;
+  flex-direction: column;
+  height: 100px;
   justify-content: center;
-  line-height: 25px;
+  align-items: center;
 }
 
-hr {
-  border: 1px solid #646369;
-}
-
-img {
-  max-width: 30px;
-}
-
-.images {
+.icons-2 {
   display: flex;
+  margin: 40px 0;
   justify-content: center;
-  gap: 30px;
-  margin-top: 50px;
+  list-style: none;
+  gap: 20px;
+}
+
+.icons-2 ul li {
+  flex: 0 1 40px;
+}
+
+.icons-2 img {
+  background: transparent;
+  width: 15px;
+  height: 15px;
+}
+
+.arrow-left {
+  display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .header-container {
+    position: sticky;
+    top: 0;
+    background-color: #322fa5;
+    z-index: 1;
+    padding: 20px 10%;
+  }
+
+  .nav-2 {
+    display: inline-block;
+  }
+
+  .arrow-left {
+    display: inline-block;
+  }
+
+  .icons-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .nav-item {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 752px) {
+  .nav-item {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
 }
