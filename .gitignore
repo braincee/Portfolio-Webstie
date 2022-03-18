@@ -349,7 +349,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 #test.md
-test.md
+MIT.md
 
 #node_modules
 node_modules/

@@ -1,15 +1,36 @@
-# Portfolio-Webstie
-This portfolio website is built to demonstrate my skills by showing the project built
+Project Name
+Portfolio Website
 
-Built With Languages
-Html
+Built With
+Major languages
+HTML
 CSS
 
-Author 
-Stephen Annor 
+Frameworks
+Technologies used
+Live Demo (if available)
+Live Demo Link
 
-Accounts 
-Github: https://github.com/braincee
+Getting Started
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+To get a local copy up and running follow these simple example steps.
 
 
+👤 STEPHEN ANNOR
 
+GitHub: @braincee
+Twitter: @annor_0543
+LinkedIn: https://www.linkedin.com/in/kwesi-appiah-1387801a1/
+
+Feel free to check the issues page.
+
+Show your support
+Give a ⭐️ if you like this project!
+
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.

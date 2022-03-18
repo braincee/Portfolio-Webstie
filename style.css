@@ -47,8 +47,8 @@ li {
   gap: 60px;
 }
 
-.hamburger {
-  max-width: 30px;
+.bars {
+  padding: 0%;
 }
 
 .list-1 {
@@ -197,7 +197,7 @@ li {
     align-items: baseline;
   }
 
-  .hamburger {
+  .bars {
     display: none;
   }
 }
@@ -206,6 +206,10 @@ li {
   .nav-item {
     display: none;
   }
+
+  .bars {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 752px) {
@@ -213,7 +217,7 @@ li {
     display: block;
   }
 
-  .hamburger {
+  .bars {
     display: none;
   }
 }
