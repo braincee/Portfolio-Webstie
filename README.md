@@ -19,9 +19,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 STEPHEN ANNOR
 
-GitHub: @braincee
-Twitter: @annor_0543
-LinkedIn: https://www.linkedin.com/in/kwesi-appiah-1387801a1/
+GitHub: [braincee](https://github.com/braincee) 
+Twitter: [@annor0543](https://twitter.com/twitterhandle) 
+LinkedIn: [Stephen Annor](https://www.linkedin.com/in/kwesi-appiah-1387801a1/)
 
 Feel free to check the issues page.
 
