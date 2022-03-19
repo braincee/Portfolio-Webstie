@@ -205,7 +205,7 @@ i {
   color: #9490ff !important;
   text-transform: uppercase;
   font-style: normal;
-  width: fit-content;
+  width: 70%;
   justify-self: center;
 }
 
@@ -226,6 +226,7 @@ i {
 
 .container-4 .title-1 {
   border-bottom: 1px solid #646369;
+  padding-bottom: 30px;
 }
 
 .project {
@@ -307,6 +308,7 @@ i {
   height: 40px;
   margin: 20px 0;
   list-style: none;
+  font-family: 'Inter', sans-serif;
 }
 
 .project .skills-4 > * {
@@ -327,10 +329,28 @@ i {
   width: 100px;
   height: 50px;
   padding: 10px 10px;
-  background: #9390ff;
+  background: #7d73fc;
   color: black;
   align-self: flex-start;
-  border-radius: 12px;
+  transition: transform 200ms ease-in;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  transform: scale(1.05);
+}
+
+.btn-1:active {
+  background: #5e42d7;
+}
+
+.btn-1[disabled] {
+  background-color: #2a2b33;
+}
+
+.btn-1[disabled]:hover {
+  box-shadow: none;
 }
 
 @media screen and (min-width: 1024px) {
