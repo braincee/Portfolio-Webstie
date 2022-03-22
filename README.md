@@ -1,36 +1,71 @@
-Project Name
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name
 Portfolio Website
 
-Built With
-Major languages
-HTML
-CSS
+> Description the project.
+This is a Portfolio project profile which has projects i have worked on and a contact form which any potential employer can contact me.
 
-Frameworks
-Technologies used
-Live Demo (if available)
-Live Demo Link
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+## Built With
+
+- Major languages
+-Html
+-Css
+- Frameworks
+- Technologies used
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
 
-👤 STEPHEN ANNOR
+### Setup
 
-GitHub: [braincee](https://github.com/braincee) 
-Twitter: [@annor0543](https://twitter.com/twitterhandle) 
-LinkedIn: [Stephen Annor](https://www.linkedin.com/in/kwesi-appiah-1387801a1/)
+### Install
 
-Feel free to check the issues page.
+### Usage
 
-Show your support
+### Run tests
+
+### Deployment
+
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [braincee](https://github.com/braincee)
+- Twitter: [@annor0543](https://twitter.com/twitterhandle)
+- LinkedIn: [Stephen Annor](https://www.linkedin.com/in/kwesi-appiah-1387801a1/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-📝 License
-This project is MIT licensed.
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
