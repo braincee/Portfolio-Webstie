@@ -41,6 +41,16 @@ body {
   font-weight: 500;
   line-height: 16px;
   color: white;
+  animation: rotation 0.5s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 i {
@@ -207,6 +217,11 @@ i {
   font-style: normal;
   width: 70%;
   justify-self: center;
+  transition: 7s;
+}
+
+.title-1:hover {
+  transform: translate(1110px);
 }
 
 .container-4 {
@@ -269,6 +284,11 @@ i {
 .project img {
   width: var(--wrapper-width);
   height: 100%;
+  transition: 3s;
+}
+
+.project img:hover {
+  transform: scale(1.1);
 }
 
 .project-body {
@@ -349,6 +369,7 @@ i {
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   transform: scale(1.05);
+  background: #0f059b;
 }
 
 .btn-1:active {
