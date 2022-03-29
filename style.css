@@ -97,7 +97,7 @@ i {
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 0.37px;
-  color: #7d73fc;
+  color: #fff;
   text-align: center;
 }
 
@@ -202,7 +202,7 @@ i {
   grid-row: 1/2;
   font-size: 40px;
   line-height: 52px;
-  color: #9490ff !important;
+  color: #fff !important;
   text-transform: uppercase;
   font-style: normal;
   width: 70%;
@@ -462,7 +462,7 @@ i {
 
 .title-4 {
   font-size: 40px;
-  color: #9490ff;
+  color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
