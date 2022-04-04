@@ -49,7 +49,7 @@ i {
 .mobile-menu {
   display: none;
   position: absolute;
-  height: 50rem;
+  height: 56.25rem;
   width: 100%;
   left: 0;
   top: 0;
@@ -76,7 +76,7 @@ i {
 .mobile-menu a {
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 470;
+  font-weight: 500;
   line-height: 2rem;
 }
 
