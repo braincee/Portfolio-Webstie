@@ -4,7 +4,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   border: 0;
 }
@@ -45,6 +44,40 @@ body {
 
 i {
   font-size: 30px;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  height: 800px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #191765;
+  background-image: url("images/menu-mobile.png");
+  padding: 2.5rem;
+}
+
+.mobile-menu img {
+  float: right;
+  margin-bottom: 1rem;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  clear: right;
+  width: 90%;
+}
+
+.mobile-menu ul li {
+  margin: 0 0 2rem;
+}
+
+.mobile-menu a {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 32px;
 }
 
 .menu-1 {
