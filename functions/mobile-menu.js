@@ -6,11 +6,9 @@ const displayMobile = Array.from(document.querySelectorAll('#mobile-menu ul li a
 function showMenu() {
   hamburger.style.display = 'none';
   mobileMenu.style.display = 'block';
-  document.body.style.overflow = 'hidden';
 }
 
 function hideMenu() {
-  document.body.style.overflow = 'hidden';
   hamburger.style.display = 'block';
   mobileMenu.style.display = 'none';
 }
