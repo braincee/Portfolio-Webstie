@@ -7,7 +7,6 @@ function showMenu() {
   hamburger.style.display = 'none';
   mobileMenu.style.display = 'block';
   document.body.style.overflow = 'hidden';
-
 }
 
 function hideMenu() {
