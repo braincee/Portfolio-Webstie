@@ -99,10 +99,10 @@ function displayProject(projectIndex) {
       projectWindowWrapper.style.width = '100%';
       projectWindowWrapper.style.height = 'max-content';
       projectWindowWrapper.style.padding = '3% 10% 3%';
-      projectDescription.style.maxWidth = '700px';
-      imageContainer.style.maxWidth = '1108px';
-      imageContainer.style.height = '405px';
-      projectWindowHeader.style.maxWidth = '1108px';
+      projectDescription.style.maxWidth = '43.75rem';
+      imageContainer.style.maxWidth = '69.25rem';
+      imageContainer.style.height = '25.3rem';
+      projectWindowHeader.style.maxWidth = '69.25rem';
       projectWindowHeader.style.marginBottom = '20px';
       projectBtnWrapper.style.flexDirection = 'row';
     } else {
