@@ -343,7 +343,7 @@ i {
   list-style: none;
 }
 
-.contact-form fieldset > * {
+.Contact-us_Form fieldset > * {
   font-size: 15px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
@@ -405,14 +405,15 @@ i {
   flex-wrap: wrap;
 }
 
-.contact-1 {
+.Contact-us {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 650px;
   padding: 20px 0;
 }
 
-.contact-1 p {
+.Contact-us p {
   display: inline-block;
   padding: 2rem 10%;
   text-align: center;
@@ -420,7 +421,7 @@ i {
   color: #f5f5ff;
 }
 
-.contact-form {
+.Contact-us__Form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -430,24 +431,53 @@ i {
   padding: 0 10%;
 }
 
-.contact-form fieldset {
+.Contact-us__Form fieldset {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: max-content;
 }
 
-.contact-form fieldset > *:hover {
+.Contact-us__Form fieldset > *:hover {
   padding-left: calc(16px + 5px);
 }
 
-.contact-form fieldset > *::placeholder {
+.Contact-us__Form fieldset > *::placeholder {
   color: #81818c;
 }
 
-.contact-form fieldset textarea {
-  height: 120px;
+.Contact-us__Form fieldset textarea {
+  height: 80px;
+}
+
+.Contact-us__Form fieldset input {
+  height: 50px;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+.no-error {
+  color: #ff4747 !important;
+  font-weight: normal !important;
+  font-size: small !important;
+  padding: 0 0 0 10px !important;
+  margin: 0 !important;
+}
+
+.valid {
+  outline: 3px green solid;
+}
+
+.invalid {
+  outline: 3px rgb(214, 52, 52) solid;
 }
 
 .footer-1 {
@@ -481,7 +511,7 @@ i {
   font-weight: normal;
 }
 
-.container-5 {
+.submit-container {
   display: flex;
   justify-content: center;
   font-family: "Roboto", sans-serif;
@@ -500,7 +530,7 @@ i {
     grid-gap: 5rem;
   }
 
-  .container-1 {
+  .header-container {
     position: sticky;
     top: 0;
     background-color: #191765;
@@ -531,7 +561,7 @@ i {
     align-items: baseline;
   }
 
-  .work-container .Section-1 {
+  .work-container .Section-title {
     width: 90%;
     text-transform: capitalize;
   }
@@ -685,14 +715,15 @@ i {
 
   /* .contact-3 {
     display: block;
-  }
+  } */
 
   .container-5 {
     display: none;
-  } */
+  } 
 
-  .contact-1 {
+  /* .Contact-us_Form {
     max-width: 50%;
     padding-left: 2rem;
   }
+*/
 }
