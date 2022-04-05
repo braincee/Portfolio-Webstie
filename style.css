@@ -648,23 +648,10 @@ i {
     font-size: 30px;
     padding-bottom: 60px;
   }
-
-   /* .container-5 {
-    padding-left: 7rem !important;
-  }
-
-  #parag {
-    max-width: 90%;
-  }
-
-  #contact-2 {
-    margin-left: 4rem;
-  }  */
 }
 
 @media screen and (max-width: 992px) {
-
-   .title-4 {
+  .title-4 {
     display: none;
   }
 

@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'Weather App',
     description:
-      "The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to ten days in future and hourly weather forecast.",
+      'The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to ten days in future and hourly weather forecast.',
     featuredImageSource: 'images/weather-app.avif',
     featuredImageAlt: 'Project image',
     technology: ['CSS', 'HTML', 'JavaScript'],
@@ -22,7 +22,7 @@ const projects = [
   {
     name: 'Calculator App',
     description:
-      "This is a fully functional and free taste of our very popular scientific calculator. It includes an optional RPN mode, multiple undo and redo, unit conversions and constants, as well as two stylish themes and our highly praised design.",
+      'This is a fully functional and free taste of our very popular scientific calculator. It includes an optional RPN mode, multiple undo and redo, unit conversions and constants, as well as two stylish themes and our highly praised design.',
     featuredImageSource: 'images/calculator.jpg',
     featuredImageAlt: 'Project image',
     technology: ['CSS', 'HMTL', 'JavaScript'],
@@ -32,7 +32,7 @@ const projects = [
   {
     name: 'Road Trip Planner',
     description:
-      "As travelling restrictions are beginning to be lifted globally, maybe it’s finally time for you to plan that roadtrip! In this project, you’ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.",
+      'A travelling restrictions are beginning to be lifted globally, maybe it’s finally time for you to plan that roadtrip! In this project, you’ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.',
     featuredImageSource: 'images/road-trip.jpg',
     featuredImageAlt: 'Project image',
     technology: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
@@ -50,29 +50,21 @@ function hideProject(prevProject) {
   document.querySelector('.header-container').style.filter = 'blur(0)';
   prevProject.querySelector('.project-body').style.filter = 'blur(0)';
   if (prevProject.nextSibling) {
-    prevProject.nextSibling.querySelector('.picture').style.filter =
-      'blur(0)';
+    prevProject.nextSibling.querySelector('.picture').style.filter = 'blur(0)';
   }
 }
 
-// eslint-disable-next-line no-unused-vars
 function displayProject(projectIndex) {
   const prevWindow = document.getElementById('projectWindow');
   if (prevWindow) {
-    prevWindow.parentElement.querySelector('.project-picture').style.filter =
-      'blur(0)';
-    prevWindow.parentElement.querySelector('.project-body').style.filter =
-      'blur(0)';
+    prevWindow.parentElement.querySelector('.project-picture').style.filter = 'blur(0)';
+    prevWindow.parentElement.querySelector('.project-body').style.filter = 'blur(0)';
     if (prevWindow.parentElement.nextSibling) {
-      prevWindow.parentElement.nextSibling.querySelector(
-        '.project-picture'
-      ).style.filter = 'blur(0)';
+      prevWindow.parentElement.nextSibling.querySelector('.project-picture').style.filter = 'blur(0)';
     }
     prevWindow.remove();
   }
 
-  // eslint-disable-next-line vars-on-top
-  // eslint-disable-next-line prefer-const
   let screen = window.matchMedia('(min-width: 1024px)');
   const projectWindowWrapper = document.createElement('main');
   const projectWindow = document.createElement('section');
@@ -84,25 +76,22 @@ function displayProject(projectIndex) {
   const projectBtnSeeSrc = document.createElement('a');
   const projectBtnWrapper = document.createElement('div');
   const currentProject = document.getElementById(`p${projectIndex + 1}`);
-  const projectTechnologies = currentProject.querySelector(
-    '.project-body .technologies'
-  );
+  const projectTechnologies = currentProject.querySelector('.project-body .technologies');
   function mediaQuery(screen) {
     const headerContainer = document.querySelector('.header-container');
     if (screen.matches) {
       headerContainer.style.filter = 'blur(12px)';
       projectWindowWrapper.style.backgroundColor = '#100F45';
-      projectWindowWrapper.style.backgroundImage =
-        "url('images/portfolio-2.svg')";
+      projectWindowWrapper.style.backgroundImage = "url('images/portfolio-2.svg')";
       projectWindowWrapper.style.backgroundRepeat = 'no-repeat';
       projectWindowWrapper.style.backgroundSize = ' 100% 100%';
       projectWindowWrapper.style.width = '100%';
       projectWindowWrapper.style.height = 'max-content';
       projectWindowWrapper.style.padding = '3% 10% 3%';
-      projectDescription.style.maxWidth = '43.75rem';
-      imageContainer.style.maxWidth = '69.25rem';
-      imageContainer.style.height = '25.3rem';
-      projectWindowHeader.style.maxWidth = '69.25rem';
+      projectDescription.style.maxWidth = '700px';
+      imageContainer.style.maxWidth = '1108px';
+      imageContainer.style.height = '405px';
+      projectWindowHeader.style.maxWidth = '1108px';
       projectWindowHeader.style.marginBottom = '20px';
       projectBtnWrapper.style.flexDirection = 'row';
     } else {
@@ -130,11 +119,9 @@ function displayProject(projectIndex) {
   projectDescription.textContent = `${projects[projectIndex].description}`;
   projectTechnology.innerHTML = `${projectTechnologies.innerHTML}`;
   const projectTechnologyItems = Array.from(projectTechnology.children);
-  projectBtnGoLive.innerHTML =
-    'See Live <img src="images/see-live.png" alt="see-live-icon">';
+  projectBtnGoLive.innerHTML = 'See Live <img src="images/see-live.png" alt="see-live-icon">';
   projectBtnGoLive.href = `${projects[projectIndex].demoLive}`;
-  projectBtnSeeSrc.innerHTML =
-    'See Source <img src="images/github.png" alt="github-icon">';
+  projectBtnSeeSrc.innerHTML = 'See Source <img src="images/github.png" alt="github-icon">';
   projectBtnSeeSrc.href = `${projects[projectIndex].sourceLink}`;
   projectBtnSeeSrc.setAttribute('target', '_blank');
   projectBtnSeeSrc.setAttribute('rel', 'noopener');
@@ -239,9 +226,7 @@ function displayProject(projectIndex) {
   projectWindowWrapper.appendChild(projectWindow);
   currentProject.appendChild(projectWindowWrapper);
   currentProject.insertBefore(
-    projectWindowWrapper,
-    currentProject.querySelector('.header-container')
-  );
+    projectWindowWrapper, currentProject.querySelector('.header-container'));
 
   mediaQuery(screen);
   screen.addListener(mediaQuery);
@@ -282,9 +267,7 @@ function createProjectStructure(projNo) {
 
 function projectInit(projValues, projNo) {
   const projectContainer = document.getElementById(`p${projNo}`);
-  const projectPictureImage = projectContainer.querySelector(
-    '.project-picture img'
-  );
+  const projectPictureImage = projectContainer.querySelector('.project-picture img');
   const projectTitle = projectContainer.querySelector('.Project-title');
   const projectDescription = projectContainer.querySelector('.project-body p');
   const projectTechnologies = projectContainer.querySelector('.technologies');
@@ -301,8 +284,6 @@ function projectInit(projValues, projNo) {
   }
   projectBtn.setAttribute('onClick', `displayProject(${projNo - 1})`);
 }
-
-// Build the dynamic project section
 
 for (let index = 0; index < projects.length; index += 1) {
   createProjectStructure(index + 1);
