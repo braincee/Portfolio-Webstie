@@ -4,7 +4,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   border: 0;
 }
@@ -45,6 +44,40 @@ body {
 
 i {
   font-size: 30px;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  height: 56.25rem;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #191765;
+  background-image: url("images/menu-mobile.png");
+  padding: 2.5rem;
+}
+
+.mobile-menu img {
+  float: right;
+  margin-bottom: 1rem;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  clear: right;
+  width: 90%;
+}
+
+.mobile-menu ul li {
+  margin: 0 0 2rem;
+}
+
+.mobile-menu a {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 2rem;
 }
 
 .menu-1 {
@@ -367,8 +400,8 @@ i {
   display: flex;
   grid-row: 4 / 5;
   width: 100%;
-  margin-top: 120px;
-  margin-bottom: 71px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -377,7 +410,6 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 650px;
   padding: 20px 0;
 }
 
@@ -569,12 +601,12 @@ i {
     padding: 0 !important;
   }
 
-  #contact {
+  .container-5 {
     display: none;
   }
 
-  .container-5 {
-    display: none;
+  .contact-3 {
+    display: block;
   }
 }
 
@@ -599,12 +631,12 @@ i {
     display: inline-block;
   }
 
-  #contact {
+  /* .contact-3 {
     white-space: nowrap;
     overflow-x: auto;
     display: inline-block;
     padding-left: 15px !important;
-  }
+  } */
 
   :root {
     --wrapper-width: 350px;
@@ -616,10 +648,19 @@ i {
 
   .container-4 .title-1 {
     font-size: 30px;
+    padding-bottom: 60px;
   }
 
   .container-5 {
     padding-left: 7rem !important;
+  }
+
+  #parag {
+    max-width: 90%;
+  }
+
+  #contact-2 {
+    margin-left: 4rem;
   }
 }
 
@@ -632,10 +673,10 @@ i {
     display: none;
   }
 
-  #contact {
+  /* #contact {
     display: block;
     padding-left: 100px;
-  }
+  } */
 
   .container-5 {
     display: block;
@@ -658,11 +699,20 @@ i {
     display: block;
   }
 
-  #contact {
-    display: none;
+  .contact-3 {
+    display: block;
   }
 
   .container-5 {
     display: none;
+  }
+
+  #contact-2 {
+    display: none;
+  }
+
+  .contact-1 {
+    max-width: 50%;
+    padding-left: 2rem;
   }
 }

@@ -16,13 +16,21 @@
             <a href="#">stephen annor</a>
             <nav class="bars">
                 <i class="fas fa-bars"></i>
+                <div class="mobile-menu" id="mobile-menu">
+                    <img id="btn-cancel" src="images/cancel.png" alt="button-cancel">
+                    <ul>
+                        <li><a href="#portfolio">PORTFOLIO<img src="images/right-arrow.png" alt="arrow-right"></a></li>
+                        <li><a href="#contact">CONTACT<img src="images/right-arrow.png" alt="arrow-right"></a></li>
+                        <li><a href="#about">ABOUT<img src="images/right-arrow.png" alt="arrow-right"></a></li>
+                    </ul>
+                </div>
             </nav>
             <nav class="menu-1">
                 <ul class="menu-2">
                     <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#about">CONTACT</a></li>
-                    <li><a href="#contact">ABOUT</a></li>
-                    <li><a href="#"><img src="images/Union.png" alt="mail"></a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact"><img src="images/Union.png" alt="mail"></a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +38,7 @@
     <div class="grid-1">
         <main class="myself-1" >
             <div class="container-2">
-                <section class="myself-2">
+                <section class="myself-2" id="about">
                     <h3 class="name">Stephen Annor</h3>
                     <h4 class="job">Software Developer</h4>
                     <p class="intro-1">I can help you build a product, 
@@ -89,7 +97,7 @@
                 <img class="arrow-image right-arrow" src="images/arrow.png" alt="arrow-down">
             </div>
         </div>
-        <section class="container-4">
+        <section class="container-4" id="portfolio">
             <h1 class="title-1">
                 my recent work
             </h1>
@@ -179,11 +187,11 @@
             </section>
         </section>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <section class="contact-1">
-                <h3 class="title-1" id="contact">CONTACT US</h3>
+                <h3 class="title-1" id="contact-2">CONTACT US</h3>
                 <h3 class="title-4">Let's chat!</h3>
-                <p>
+                <p id="parag">
                     If you have an application you are interested in developing, 
                     a feature that you need built or a project that needs coding. I’d love 
                     to help with it 
@@ -219,5 +227,6 @@
             </div>
         </div>
     </footer>
+    <script src="functions/mobile-menu.js"></script>
 </body>
 </html>
