@@ -9,14 +9,13 @@ form.addEventListener('submit', (e) => {
   const fullNameTest = fullName.value.split(' ');
 
   form.elements[3].className = 'valid';
-  
   if (fullNameTest.length === 1) {
-    fullNameError.textContent = 'Enter your full name';
+    fullNameError.textContent = '*Enter your full name separated with space';
     fullName.className = 'invalid';
   } else {
     for (let i = 0; i < fullNameTest.length; i += 1) {
       if (numRegex.test(fullNameTest[i])) {
-        fullNameError.textContent = 'Name field should have alphabets and space';
+        fullNameError.textContent = '*Name field should have alphabets and space';
         fullName.className = 'invalid';
         break;
       } else {
@@ -27,9 +26,9 @@ form.addEventListener('submit', (e) => {
   }
 
   if (!emailRegex.test(email.value)) {
-    emailError.textContent = 'Email format is incorrect ';
+    emailError.textContent = '*Email address format is incorrect ';
   } else if (email.value !== email.value.toLowerCase()) {
-    emailError.textContent = 'Email should be in lowercase';
+    emailError.textContent = '*Email address should be in lowercase';
     email.className = 'invalid';
   } else {
     emailError.textContent = '';

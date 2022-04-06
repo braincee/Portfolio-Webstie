@@ -443,7 +443,9 @@ i {
 }
 
 .Contact-us__Form fieldset > *::placeholder {
-  color: #81818c;
+  color: #0a0a72;
+  padding-left: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .Contact-us__Form fieldset textarea {
@@ -509,16 +511,6 @@ i {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-}
-
-.submit-container {
-  display: flex;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--secondary-color);
-  width: 100%;
 }
 
 .title-4 {
@@ -695,6 +687,19 @@ i {
 }
 
 @media screen and (min-width: 992px) {
+  /* .footer-2 {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 11.25rem 0;
+  }
+
+  #contact-2 {
+    display: none;
+  }
+
+  .container-5 {
+    display: none;
+  }  */
   .footer-2 {
     flex-direction: row;
     justify-content: space-around;
@@ -705,25 +710,7 @@ i {
     display: none;
   }
 
-  /* .title-4 {
-    display: block;
-  }
-
-  .container-6 {
-    display: block;
-  }
-
-  /* .contact-3 {
-    display: block;
-  } */
-
   .container-5 {
     display: none;
-  } 
-
-  /* .Contact-us_Form {
-    max-width: 50%;
-    padding-left: 2rem;
   }
-*/
 }
