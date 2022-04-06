@@ -456,6 +456,11 @@ i {
   height: 50px;
 }
 
+.Contact-us__Form fieldset text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+}
+
 .submit-container {
   display: flex;
   justify-content: center;
