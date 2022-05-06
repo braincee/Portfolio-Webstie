@@ -10,7 +10,7 @@
 
 :root {
   --wrapper-width: 90%;
-  --primary-color: #353739;
+  --primary-color: #1f5673;
   --secondary-color: #edecff;
   --containers-side-padding: 30px;
 }
@@ -142,7 +142,7 @@ i {
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 0.37px;
-  color: #1b2021;
+  color: #8EC4E1;
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ i {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  color: #1b2021;
+  color: #8EC4E1;
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ i {
 .skills-2 {
   margin: 0 0 10px;
   display: inline-block;
-  color: #9490ff;
+  color: #1b2021;
   font-size: 12px;
   line-height: 24px;
   font-weight: 500;
@@ -247,7 +247,7 @@ i {
   grid-row: 1/2;
   font-size: 40px;
   line-height: 52px;
-  color: #1b2021 !important;
+  color: #8EC4E1 !important;
   text-transform: uppercase;
   font-style: normal;
   width: 70%;
@@ -313,7 +313,8 @@ i {
 
 .project img {
   width: var(--wrapper-width);
-  height: 100%;
+  height: 350px;
+  border-radius: 10px;
   transition: 3s;
 }
 
@@ -464,7 +465,7 @@ i {
 .Contact-us__Form fieldset > *::placeholder {
   color: #1b2021;
   padding-left: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Contact-us__Form fieldset textarea {
@@ -478,6 +479,10 @@ i {
 .Contact-us__Form fieldset text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10px;
+}
+
+.border {
+  border-radius: 10px 15px;
 }
 
 .submit-container {
@@ -551,7 +556,7 @@ i {
     top: 0;
     z-index: 1;
     padding: 20px 10%;
-    background-color: #353739;
+    background-color: #1e5471;
   }
 
   .bars {

@@ -50,7 +50,7 @@ function hideProject(prevProject) {
   document.querySelector('.header-container').style.filter = 'blur(0)';
   prevProject.querySelector('.project-body').style.filter = 'blur(0)';
   if (prevProject.nextSibling) {
-    prevProject.nextSibling.querySelector('.picture').style.filter = 'blur(-20)';
+    prevProject.nextSibling.querySelector('.picture').style.filter = 'blur(0)';
   }
 }
 
