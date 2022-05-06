@@ -1,13 +1,13 @@
 const projects = [
   {
-    name: 'To-Do-List',
+    name: 'Awesome Books',
     description:
-      " Prioritize & Organize your Team's Tasks! Be more efficient and successful! Start with. A simple To-Do-List, add more Details as you go ! Free for up to 50 User! Try it now! Instant Messaging. Intuitive Drag & Drop. Up-To Date Information.",
-    featuredImageSource: 'images/to-do-list.jpg',
+      "Awesome-book is a web application that saves a list of books(their title and authors). It helps organize a collection of books according to their registration time. Awesome-book has been built with HTML,CSS and JavaScript(by using the ES6 approach))",
+    featuredImageSource: 'images/books-2.png',
     featuredImageAlt: 'Project image',
     technology: ['CSS', 'HTML', 'JavaScript'],
-    demoLive: '',
-    sourceLink: '',
+    demoLive: 'https://braincee.github.io/Awesome-Books-with-ES6/',
+    sourceLink: 'https://github.com/braincee/Awesome-Books-with-ES6',
   },
   {
     name: 'Weather App',
@@ -50,7 +50,7 @@ function hideProject(prevProject) {
   document.querySelector('.header-container').style.filter = 'blur(0)';
   prevProject.querySelector('.project-body').style.filter = 'blur(0)';
   if (prevProject.nextSibling) {
-    prevProject.nextSibling.querySelector('.picture').style.filter = 'blur(0)';
+    prevProject.nextSibling.querySelector('.picture').style.filter = 'blur(-20)';
   }
 }
 
@@ -81,7 +81,7 @@ function displayProject(projectIndex) {
     const headerContainer = document.querySelector('.header-container');
     if (screen.matches) {
       headerContainer.style.filter = 'blur(12px)';
-      projectWindowWrapper.style.backgroundColor = '#100F45';
+      projectWindowWrapper.style.backgroundColor = '#353739';
       projectWindowWrapper.style.backgroundImage = "url('images/portfolio-2.svg')";
       projectWindowWrapper.style.backgroundRepeat = 'no-repeat';
       projectWindowWrapper.style.backgroundSize = ' 100% 100%';
@@ -109,10 +109,7 @@ function displayProject(projectIndex) {
 
   currentProject.querySelector('.project-picture').style.filter = 'blur(12px)';
   currentProject.querySelector('.project-body').style.filter = 'blur(20px)';
-  // if (currentProject.nextSibling) {
-  //   currentProject.nextSibling.querySelector('.project-picture').style.filter =
-  //     'blur(0px)';
-  // }
+ 
   projectWindowHeader.innerHTML = `<h1>${projects[projectIndex].name}</h1><img src="images/cancel.png" alt="X-icon" onmouseover="" style="cursor: pointer;">`;
   imageContainer.src = `${projects[projectIndex].featuredImageSource}`;
   imageContainer.alt = `${projects[projectIndex].featuredImageAlt}`;
@@ -134,9 +131,9 @@ function displayProject(projectIndex) {
     .querySelector('img')
     .setAttribute('onClick', `hideProject(p${projectIndex + 1})`);
 
-  projectWindow.style.backgroundColor = 'rgba(255, 255, 255, 0.16)';
+  projectWindow.style.backgroundColor = '#353739';
   projectWindow.style.border = '1px solid #FFFFFF';
-  projectWindow.style.boxShadow = '0px 48px 48px rgba(37, 47, 137, 0.08)';
+  projectWindow.style.boxShadow = '0px 48px 48px #353739';
   projectWindow.style.padding = '2rem';
   projectWindowWrapper.style.margin = '1rem 24px 24px';
   projectWindowWrapper.style.position = 'absolute';

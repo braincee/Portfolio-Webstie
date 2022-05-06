@@ -10,7 +10,7 @@
 
 :root {
   --wrapper-width: 90%;
-  --primary-color: #191765;
+  --primary-color: #353739;
   --secondary-color: #edecff;
   --containers-side-padding: 30px;
 }
@@ -27,6 +27,7 @@ body {
 
 .header-container {
   padding: 20px var(--containers-side-padding);
+
 }
 
 .navbar {
@@ -40,6 +41,17 @@ body {
   font-weight: 500;
   line-height: 16px;
   color: white;
+  animation: rotation 0.5s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 i {
@@ -53,7 +65,7 @@ i {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: #191765;
+  background-color: #353739;
   background-image: url("images/menu-mobile.png");
   padding: 2.5rem;
 }
@@ -130,7 +142,7 @@ i {
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 0.37px;
-  color: #7d73fc;
+  color: #1b2021;
   text-align: center;
 }
 
@@ -139,7 +151,7 @@ i {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  color: var(--secondary-color);
+  color: #1b2021;
   text-align: center;
 }
 
@@ -235,7 +247,7 @@ i {
   grid-row: 1/2;
   font-size: 40px;
   line-height: 52px;
-  color: #9490ff !important;
+  color: #1b2021 !important;
   text-transform: uppercase;
   font-style: normal;
   width: 70%;
@@ -302,6 +314,11 @@ i {
 .project img {
   width: var(--wrapper-width);
   height: 100%;
+  transition: 3s;
+}
+
+.project img:hover {
+  transform: scale(1.1);
 }
 
 .project-body {
@@ -319,8 +336,8 @@ i {
   margin: 15px 0;
   padding: 0;
   font-size: 32px;
+  color: #1b2021;
   line-height: 44px;
-  color: white;
   font-weight: 500;
   text-align: center;
 }
@@ -371,16 +388,18 @@ i {
   width: 100px;
   height: 50px;
   padding: 10px 10px;
-  background: #9390ff;
+  background: #e3dcc2;
   color: black;
   align-self: flex-start;
+  border-radius: 5px 5px;
   transition: transform 300ms ease-in;
 }
 
 .btn-primary:hover {
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   transform: scale(1.05);
+  background: #e3dc95;
+  border-radius: 15px 15px;
 }
 
 .btn-primary:active {
@@ -443,7 +462,7 @@ i {
 }
 
 .Contact-us__Form fieldset > *::placeholder {
-  color: #0a0a72;
+  color: #1b2021;
   padding-left: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -530,9 +549,9 @@ i {
   .header-container {
     position: sticky;
     top: 0;
-    background-color: #191765;
     z-index: 1;
     padding: 20px 10%;
+    background-color: #353739;
   }
 
   .bars {
