@@ -143,7 +143,6 @@ i {
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 0.37px;
-  color: #8EC4E1;
   text-align: center;
 }
 
@@ -248,7 +247,6 @@ i {
   grid-row: 1/2;
   font-size: 40px;
   line-height: 52px;
-  color: #8EC4E1 !important;
   text-transform: uppercase;
   font-style: normal;
   width: 70%;
