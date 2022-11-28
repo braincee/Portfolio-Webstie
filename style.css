@@ -251,6 +251,11 @@ i {
   font-style: normal;
   width: 70%;
   justify-self: center;
+  transition: 7s;
+}
+
+.title-1:hover {
+  transform: translate(1110px);
 }
 
 .work-container {
@@ -312,8 +317,7 @@ i {
 
 .project img {
   width: var(--wrapper-width);
-  height: 350px;
-  border-radius: 10px;
+  height: 100%;
   transition: 3s;
 }
 
@@ -399,8 +403,7 @@ i {
 .btn-primary:hover {
   cursor: pointer;
   transform: scale(1.05);
-  background: #6CB0DA;
-  border-radius: 15px 15px;
+  background: #0f059b;
 }
 
 .btn-primary:active {
