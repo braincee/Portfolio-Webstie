@@ -364,6 +364,16 @@ i {
   list-style: none;
 }
 
+.project .technologies > * {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1px #555 solid;
+}
+
+.technologies li:last-child {
+  border-right: hidden;
+}
+
 .contact-form fieldset > * {
   font-size: 15px;
   font-weight: 400;
@@ -379,10 +389,6 @@ i {
   flex-grow: 1;
   text-align: center;
   border-right: 1px #555 solid;
-}
-
-.technologies li:last-child {
-  border-right: hidden;
 }
 
 .See-Project {
@@ -426,6 +432,7 @@ i {
   margin-bottom: 71px;
   justify-content: center;
   flex-wrap: wrap;
+}
 
 .contact-1 {
   display: flex;

@@ -10,24 +10,24 @@ const projects = [
     sourceLink: 'https://github.com/braincee/Awesome-Books-with-ES6',
   },
   {
-    name: 'Weather App',
-    description:
-      'The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to ten days in future and hourly weather forecast.',
-    featuredImageSource: 'images/weather-app.avif',
-    featuredImageAlt: 'Project image',
-    technology: ['CSS', 'HTML', 'JavaScript'],
-    demoLive: '',
-    sourceLink: '',
-  },
-  {
     name: 'Calculator App',
     description:
       'This is a fully functional and free taste of our very popular scientific calculator. It includes an optional RPN mode, multiple undo and redo, unit conversions and constants, as well as two stylish themes and our highly praised design.',
     featuredImageSource: 'images/calculator.jpg',
     featuredImageAlt: 'Project image',
-    technology: ['CSS', 'HMTL', 'JavaScript'],
-    demoLive: '',
-    sourceLink: '',
+    technology: ['CSS', 'HMTL', 'JavaScript', 'React'],
+    demoLive: 'https://math-magicians-braincee.netlify.app/',
+    sourceLink: 'https://github.com/braincee/math-magicians.git',
+  },
+  {
+    name: 'Contact Manager App',
+    description:
+      'The Contact Manager Application is a simple web application using the CRUD operations for users can add, delete, edit and update members of the users contact ',
+    featuredImageSource: 'images/contact-manager.png',
+    featuredImageAlt: 'Project image',
+    technology: ['CSS', 'HTML', 'JavaScript', 'Context API'],
+    demoLive: 'https://braincee.github.io/contact-manager/#/',
+    sourceLink: 'https://github.com/braincee/contact-manager.git',
   },
   {
     name: 'Road Trip Planner',
