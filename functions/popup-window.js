@@ -6,7 +6,7 @@ const projects = [
     featuredImageSource: 'images/sports.png',
     featuredImageAlt: 'Project image',
     technology: ['CSS', 'HTML',],
-    demoLive: 'braincee.github.io/Sports-News/',
+    demoLive: 'https://braincee.github.io/Sports-News/',
     sourceLink: 'https://github.com/braincee/Sports-News.git',
   },
   {

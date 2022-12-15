@@ -61,13 +61,23 @@ i {
 .myself-0 {
  display: flex;
  flex-direction: row-reverse;
- padding: -100px;
+ justify-content: space-around;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: 0.37px;
+  list-style: none;
+
 }
 
 #hero-image {
-  height: 50%;
+  height: 40%;
   width: 30%;
   border-radius: 80%;
+  margin-top: 20px;
 }
 
 .mobile-menu {
@@ -147,15 +157,6 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.name {
-  margin: 0 0 0 120px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 50px;
-  letter-spacing: 0.37px;
-  text-align: center;
 }
 
 .myself-2 .job {
@@ -676,6 +677,16 @@ i {
   .work-container .Section-title {
     font-size: 30px;
     padding-bottom: 60px;
+  }
+
+  .myself-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hero-image {
+    width: 20%;
   }
 }
 
