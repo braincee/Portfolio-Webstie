@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: 'Sports News',
+    description:
+      'OLYMPICS 2022 website is a major international multi-sport event held once every four years. The mordern Olympics were inspired by the ancient Olympics games held in Greece. I developed this website to show the wonderful games being payed during this period of Olympics.',
+    featuredImageSource: 'images/sports.png',
+    featuredImageAlt: 'Project image',
+    technology: ['CSS', 'HTML',],
+    demoLive: 'braincee.github.io/Sports-News/',
+    sourceLink: 'https://github.com/braincee/Sports-News.git',
+  },
+  {
     name: 'Awesome Books',
     description:
       "Awesome-book is a web application that saves a list of books(their title and authors). It helps organize a collection of books according to their registration time. Awesome-book has been built with HTML,CSS and JavaScript(by using the ES6 approach))",
@@ -25,19 +35,9 @@ const projects = [
       'The Contact Manager Application is a simple web application using the CRUD operations for users can add, delete, edit and update members of the users contact ',
     featuredImageSource: 'images/contact-manager.png',
     featuredImageAlt: 'Project image',
-    technology: ['CSS', 'HTML', 'JavaScript', 'Context API'],
+    technology: ['Bootstrap', 'React', 'Context API'],
     demoLive: 'https://braincee.github.io/contact-manager/#/',
     sourceLink: 'https://github.com/braincee/contact-manager.git',
-  },
-  {
-    name: 'Road Trip Planner',
-    description:
-      'A travelling restrictions are beginning to be lifted globally, maybe it’s finally time for you to plan that roadtrip! In this project, you’ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.',
-    featuredImageSource: 'images/road-trip.jpg',
-    featuredImageAlt: 'Project image',
-    technology: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    demoLive: '',
-    sourceLink: '',
   },
 ];
 
