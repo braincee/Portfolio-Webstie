@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: 'Visit Ghana',
+    description: 'Visit Ghana is my first website created with Next JS. This website consists of the history about Ghana, Regions in Ghana and Tourist Destinations in Ghana. This website gives your more information about Ghana and will make you feel like visiting my beloved country on a vacation anytime soon.',
+    featuredImageSource: 'images/visit-ghana.png',
+    featuredImageAlt: 'Project image',
+    technology: ['JavaScript', 'React', 'Next JS'],
+    demoLive: 'https://visit-ghana.vercel.app/',
+    sourceLink: 'https://github.com/braincee/tourist-site',
+  },
+  {
     name: 'Sports News',
     description:
       'OLYMPICS 2022 website is a major international multi-sport event held once every four years. The mordern Olympics were inspired by the ancient Olympics games held in Greece. I developed this website to show the wonderful games being payed during this period of Olympics.',
@@ -38,6 +47,15 @@ const projects = [
     technology: ['Bootstrap', 'React', 'Context API'],
     demoLive: 'https://braincee.github.io/contact-manager/#/',
     sourceLink: 'https://github.com/braincee/contact-manager.git',
+  },
+  {
+    name: 'To Do List App',
+    description: 'Todo application is a web app that helps to organise your daily activities. It lists all the activities that you need to be completed and allows you to mark them as complete or not. Tasks can also be dragged and dropped in any position. It is a minimalistic website built using JavaScript ES6, Webpack and CSS',
+    featuredImageSource: 'images/to-do-list.png',
+    featuredImageAlt: 'Project image',
+    technology: ['Html', 'CSS', 'JavaScript'],
+    demoLive: 'https://braincee.github.io/To-Do_List/',
+    sourceLink: 'https://github.com/braincee/To-Do_List',
   },
 ];
 
