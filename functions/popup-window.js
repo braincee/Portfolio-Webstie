@@ -39,16 +39,6 @@ const projects = [
     sourceLink: 'https://github.com/braincee/math-magicians.git',
   },
   {
-    name: 'Contact Manager App',
-    description:
-      'The Contact Manager Application is a simple web application using the CRUD operations for users can add, delete, edit and update members of the users contact ',
-    featuredImageSource: 'images/contact-manager.png',
-    featuredImageAlt: 'Project image',
-    technology: ['Bootstrap', 'React', 'Context API'],
-    demoLive: 'https://braincee.github.io/contact-manager/#/',
-    sourceLink: 'https://github.com/braincee/contact-manager.git',
-  },
-  {
     name: 'To Do List App',
     description: 'Todo application is a web app that helps to organise your daily activities. It lists all the activities that you need to be completed and allows you to mark them as complete or not. Tasks can also be dragged and dropped in any position. It is a minimalistic website built using JavaScript ES6, Webpack and CSS',
     featuredImageSource: 'images/to-do-list.png',
