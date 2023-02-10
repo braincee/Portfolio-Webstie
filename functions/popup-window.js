@@ -9,14 +9,14 @@ const projects = [
     sourceLink: 'https://github.com/braincee/tourist-site',
   },
   {
-    name: 'Sports News',
-    description:
-      'OLYMPICS 2022 website is a major international multi-sport event held once every four years. The mordern Olympics were inspired by the ancient Olympics games held in Greece. I developed this website to show the wonderful games being payed during this period of Olympics.',
-    featuredImageSource: 'images/sports.png',
+    name: 'Space Travellers Hub',
+    description: 'The Space Travellers is a web application that provides commercial and scientific space travel services. This application will allow users to book rockets and join selected space missions. User can go to My Profile that section displays all reserved rockets and space missions.',
+    featuredImageSource: 'images/space-hub.png',
     featuredImageAlt: 'Project image',
-    technology: ['CSS', 'HTML',],
-    demoLive: 'https://braincee.github.io/Sports-News/',
-    sourceLink: 'https://github.com/braincee/Sports-News.git',
+    technology: ['JavaScript', 'React', 'Redux', 'Bootstrap', 'API'],
+    demoLive: 'https://space-travellers-hub-09.vercel.app/',
+    sourceLink: 'https://github.com/braincee/React-Redux-group-project',
+
   },
   {
     name: 'Awesome Books',
